@@ -15,7 +15,7 @@ public class SpringJettyApplication {
 	
 	@GetMapping("/hello")
 	public String getMessage() {
-		return "Hello ";
+		return "Hello from Jetty ";
 	}
 
 }
